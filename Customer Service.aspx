@@ -1,4 +1,4 @@
-﻿<%@ Page Title="" Language="vb" AutoEventWireup="false" MasterPageFile="~/Site1.Master" CodeBehind="Dispensing.aspx.vb" Inherits="Pet_UI.Dispensing" %>
+﻿<%@ Page Title="" Language="vb" AutoEventWireup="false" MasterPageFile="~/Site1.Master" CodeBehind="Customer Service.aspx.vb" Inherits="Pet_UI.WebForm1" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
@@ -37,7 +37,7 @@
 <body>
     <form id="form1" runat="server">
         
-               <asp:Button  ID="Button2" runat="server" Text="Contact Vet." onclientclick='redirect()' CssClass="button" />
+               <asp:Button  ID="Button2" runat="server" Text="Contact Dispensing Department" onclientclick='redirect()' CssClass="button" />
                
             <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
                 
@@ -64,8 +64,7 @@
     </td>  
     <td>  
     <br />  
-    <asp:Button ID="Button1" runat="server" Text="Dispatch Prescription." CssClass="btn btn-primary" OnClick="Button1_Click"/>
-        <asp:Button ID="Button3" runat="server" Text="Ask for replacement Prescription." CssClass="btn btn-primary" OnClick="Button1_Click"/>  
+    <asp:Button ID="Button1" runat="server" Text="Forward Prescription." CssClass="btn btn-primary" OnClick="Button1_Click"/>  
     </td>  
     </tr>  
     </table>  

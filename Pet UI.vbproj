@@ -95,6 +95,7 @@
     <Content Include="Default.aspx" />
     <Content Include="Dispensing.aspx" />
     <Content Include="Web.config" />
+    <Content Include="Customer Service.aspx" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Default.aspx.designer.vb">
@@ -136,6 +137,13 @@
     <Compile Include="Site1.Master.vb">
       <DependentUpon>Site1.Master</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Customer Service.aspx.designer.vb">
+      <DependentUpon>Customer Service.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Customer Service.aspx.vb">
+      <DependentUpon>Customer Service.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
     </Compile>
   </ItemGroup>
   <ItemGroup>

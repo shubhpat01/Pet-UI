@@ -3,33 +3,54 @@
 <!DOCTYPE html>
 
 <html>
+    <html xmlns="http://www.w3.org/1999/xhtml">  
 <head runat="server">
     <title></title>
+    <style type="text/css">  
+.auto-style1 {  
+     width: 100%;  
+      }  
+.button {
+  display: block;
+  height: 25px;
+  background: #f1f1f1;
+  padding: 10px;
+  text-align: center;
+  border-radius: 5px;
+  border: 1px solid #e1e1e2;
+  color: #000;
+  font-weight: bold;
+}
+.auto-style2 {  
+     width: 278px;  
+       }  
+.auto-style3 {  
+      width: 278px;  
+      height: 23px;  
+        }  
+.auto-style4 {  
+      height: 23px;  
+        }  
+</style>
     <asp:ContentPlaceHolder ID="head" runat="server">
     </asp:ContentPlaceHolder>
 </head>
 <body>
     <form id="form1" runat="server">
         <div>
-            <h1 style="color:green">Master Page</h1>
-            <div> <a href="Default.aspx">Default Page</a>
-                <a href="Dispensing.aspx">Dispensing page</a>
-            </div>
-            <form>
-  <div class="form-group">
-    <label for="formGroupExampleInput">Example label</label>
-    <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Example input">
-  </div>
-  <div class="form-group">
-    <label for="formGroupExampleInput2">Another label</label>
-    <input type="text" class="form-control" id="formGroupExampleInput2" placeholder="Another input">
-  </div>
-</form>
-           
+            <h1 style="color:green">Pet Medic System</h1>
+            <div> 
+             
             <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
                 
             </asp:ContentPlaceHolder>
         </div>
+             </div>
+            <div>           
+ 
+  
+    </div>  
     </form>
+
 </body>
 </html>
