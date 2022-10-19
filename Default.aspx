@@ -10,9 +10,9 @@
      width: 100%;  
       }  
 .button {
-  display: block;
+  display:inline-block;
   height: 25px;
-  background: #f1f1f1;
+  background-color:cornflowerblue;
   padding: 10px;
   text-align: center;
   border-radius: 5px;
@@ -29,12 +29,21 @@
         }  
 .auto-style4 {  
       height: 23px;  
-        }  
+        }
+.body{
+    background-image:url("Vet2.jpg");
+    background-repeat:#808080;
+    background-position: center;
+    height:auto;
+    background-repeat:no-repeat;
+    background-size:cover;
+
+}
 </style>
     <asp:ContentPlaceHolder ID="head" runat="server">
     </asp:ContentPlaceHolder>
 </head>
-<body>
+<body class="body">
     <form id="form1" runat="server">
         
                <asp:Button  ID="Button2" runat="server" Text="Contact Customer Representative" onclientclick='redirect()' CssClass="button" />

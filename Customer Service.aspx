@@ -30,11 +30,20 @@
 .auto-style4 {  
       height: 23px;  
         }  
+.body{
+    background-color:antiquewhite;
+    background-repeat:#808080;
+    background-position: center;
+    height:auto;
+    background-repeat:no-repeat;
+    background-size:cover;
+
+}
 </style>
     <asp:ContentPlaceHolder ID="head" runat="server">
     </asp:ContentPlaceHolder>
 </head>
-<body>
+<body class="body">
     <form id="form1" runat="server">
         
                <asp:Button  ID="Button2" runat="server" Text="Contact Dispensing Department" onclientclick='redirect()' CssClass="button" />

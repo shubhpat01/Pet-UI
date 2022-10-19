@@ -12,10 +12,10 @@
 .button {
   display: block;
   height: 25px;
-  background: #f1f1f1;
+  background-color:cornsilk;
   padding: 10px;
-  text-align: center;
-  border-radius: 5px;
+  text-align:justify;
+  border-radius: 12px;
   border: 1px solid #e1e1e2;
   color: #000;
   font-weight: bold;
@@ -30,11 +30,21 @@
 .auto-style4 {  
       height: 23px;  
         }  
+.body{
+    background-image:url("Vet.jpg");
+    background-repeat:#808080;
+    background-position: center;
+    height:auto;
+    background-repeat:no-repeat;
+    background-size:cover;
+
+}
 </style>
     <asp:ContentPlaceHolder ID="head" runat="server">
     </asp:ContentPlaceHolder>
 </head>
-<body>
+<body Class="body">
+  
     <form id="form1" runat="server">
         
                <asp:Button  ID="Button2" runat="server" Text="Contact Vet." onclientclick='redirect()' CssClass="button" />

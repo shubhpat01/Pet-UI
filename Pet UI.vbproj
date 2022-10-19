@@ -94,6 +94,8 @@
   <ItemGroup>
     <Content Include="Default.aspx" />
     <Content Include="Dispensing.aspx" />
+    <Content Include="Vet.jpg" />
+    <Content Include="Vet2.jpg" />
     <Content Include="Web.config" />
     <Content Include="Customer Service.aspx" />
   </ItemGroup>
